@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct Waspi_Doc_NotesApp: App {
+    @AppStorage("userSignedIn") var userSignedIn = false
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userSignedIn {
+                ContentView()
+                    .transition(.move(edge: .trailing).combined(with: .opacity))
+            } else {
+                SignInView()
+            }
         }
     }
 }
