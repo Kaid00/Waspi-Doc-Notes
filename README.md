@@ -13,5 +13,5 @@ Waspi-Doc-Notes
   - password: 123456
   
 # Hint
-  Some features will only work on physical device;
-    - Screen capture dectection feature: You should run the app on a physical device to try out this feature
+Some features will only work on physical device;
+- Screen capture dectection feature: You should run the app on a physical device to try out this feature
