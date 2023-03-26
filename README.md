@@ -1,5 +1,5 @@
 # Waspi-Doc-Notes
-Waspi-Doc-Notes
+ Doctors consultation system (WASPI-DOC-NOTES)
 
 # Requirements
 - Xcode 14+
